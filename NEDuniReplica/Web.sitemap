@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Home.apsx" title="Home"  description="">
+      <siteMapNode url="pg1.aspx" title="Gallery"  description="" >
+        <siteMapNode url="pg2.aspx" title="Page1"  description="" />
+        <siteMapNode url="Galleryy.aspx" title="Page2"  description="" />
+      </siteMapNode>
+      <siteMapNode url="Programs.aspx" title="Degree Programs"  description="" >
+        <siteMapNode url="Program-1.aspx" title="UnderGraduates"  description="" />
+        <siteMapNode url="Program-2.aspx" title="Masters"  description="" />
+        <siteMapNode url="Program-3.aspx" title="PHD"  description="" />
+      </siteMapNode>
+      <siteMapNode url="About.aspx" title="About"  description="" />
+      <siteMapNode url="Login.aspx" title="Login"  description="" >
+        <siteMapNode url="ForgetPasswrdd.aspx" title="Change Password"  description="" />
+      </siteMapNode>
+
+      <siteMapNode url="Admissions.aspx" title="Admissions"  description="">
+        <siteMapNode url="AdForms.aspx" title="Forms"  description="" />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,55 @@
+﻿#MyHeader
+{
+    height:180px;
+    background-color:darkblue;
+     color:#D5dbdb;
+     width:100%;
+    margin-top: 0px;
+}
+#MyShowBar
+{
+    height:30px;
+    background-color:darkblue;
+     color:#D5dbdb;
+     width:100%;
+}
+#MyLeft
+{
+    background-color:darkblue;
+     color:gold; 
+     height:730px; 
+     width:19.5%; 
+     float:left;
+     border: 2px solid black;
+    }
+    
+    
+
+#MyRight
+{
+    background-color:lightblue; 
+    height:730px;
+     width:80%;
+      float:right;
+    }
+    
+#MyFooter
+{
+    background-color:darkblue; 
+    height:80px;
+     width:100%; 
+     float:left;
+    
+    }
+    
+    #Im1{
+	border: 3px solid black; 
+	}
+	
+	a
+	{
+	   text-align: center;
+	   color:Gold;
+	    
+	    }
+	    

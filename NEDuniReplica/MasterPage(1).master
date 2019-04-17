@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage(1).master.cs" Inherits="MasterPage_1_" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Styling.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id='MyHeader'> 
+     <asp:DropDownList ID="DropDownList1" runat="server" style="float:right" 
+            Height="22px" Width="101px" AutoPostBack="True" 
+            onselectedindexchanged="DropDownList1_SelectedIndexChanged">
+         <asp:ListItem>blue</asp:ListItem>
+         <asp:ListItem>red</asp:ListItem>
+         <asp:ListItem>black</asp:ListItem>
+         <asp:ListItem>special</asp:ListItem>
+        </asp:DropDownList>
+
+     <div id='MyHeader'> 
+     <h1 style="text-align: left; margin-top:0px; margin-right:600px;margin-left:50px;">
+  <img src='download.png' style='height:150px; width:30%; border-radius:70%; border-style:double; border-color:black;'/>
+     NEDUET</h1>
+
+    </div>
+    <div id='MyLeft'style="font-family: 'Times New Roman', Times, serif; font-size: x-large">
+        <br />
+    <a href="Home.aspx" >Home</a><hr /> 
+        <a href="About.aspx" >About</a><hr />
+        <a href="pg1.aspx" >Gallery</a><hr/>
+        <a href="AdForms.aspx">Admission Form </a> <hr/>
+&nbsp;<a href="Programs.aspx">Degree Programs</a> <hr />
+&nbsp;<a href="FeesStructure.aspx">Fees Structure</a><hr/>
+&nbsp;<a href="Localize.aspx">Academic Calender</a><hr/>
+ <a href="Login.aspx">Administrator View</a><hr />
+ 
+    </div>
+    <div id='MyRight'>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+        <div> 
+            </div>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id='MyFooter'> 
+        <p style="text-align:center;"> EMAIL: NED@neduet.pk </p>
+    </div>
+    </form>
+</body>
+</html>
